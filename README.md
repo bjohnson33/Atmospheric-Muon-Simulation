@@ -98,26 +98,23 @@ randomized.
 The β factor of the particle can be calculated using the relativistic
 energy expression
 
-$$E_{\text{total}} = \gamma E_{\text{rest}},
-$$
+<img src="https://i.imgur.com/8fya1uj.png"/>, where the rest energy of the muon is E<sub>rest</sub> = 105.6583745 MeV. The calculated β value is then used to find how far the muon travels (dh) within a specific time interval (dt) 
 
-$$dh\  = \ \gamma\beta cdt.
-$$
+<img src="https://i.imgur.com/a74Dwnz.png"/>
 
-$dx = dh \cdot \rho_{\text{air}}\left( h \right)$,
+For this to be used in the Bethe equation the distance increment must be converted to g/cm<sup>2</sup> 
+
+<img src="https://i.imgur.com/qXHHNcu.png"/>
 
 Where dx is now in the appropriate units and
-$\rho_{\text{air}}\left( h \right)\ $is the density of air as a function
-of altitude h. To determine this, the law of atmospheres must be used:
+<img src="https://i.imgur.com/CMg8W1Q.png"/> is the density of air as a function
+of altitude h. To determine this, the law of atmospheres must be used: 
 
-$${P\left( h \right) = P_{0}\left( \frac{1 - Lh}{T_{0}} \right)^{\frac{\text{gM}}{\text{RL}}}
-}{T\left( h \right) = T_{0} - \left( \text{Lh} \right)
-}{\rho_{\text{air}}\left( h \right) = \frac{\text{MP}\left( h \right)}{\text{RT}\left( h \right)},
-}$$
+<img src="https://i.imgur.com/02aAB8E.png"/> 
 
-P~0~ = 101325 Pa (standard Pressure at sea level)
+P<sub>0</sub> = 101325 Pa (standard Pressure at sea level)
 
-T~0~ = 288.15 K (standard temperature at sea level)
+T<sub>0</sub> = 288.15 K (standard temperature at sea level)
 
 L = 0.0065 K/m (temperature lapse rate)
 
@@ -130,7 +127,7 @@ R =8.31447 J/(mol\*K) (ideal gas constant)
 To take into account the cosine squared dependence, the formula for dx
 becomes:
 
-$$\text{dx} = \text{dh} \cdot \rho_{\text{air}}\left( h \right) \cdot \text{co}s^{2}\left( \theta \right)$$
+<img src="https://i.imgur.com/BZiRl7n.png"/>
 
 Once the value of dx has been obtained, the Bethe equation can be used
 to find the energy loss for that increment of distance. The energy and
@@ -141,6 +138,8 @@ Assuming the particle does not decay, an initial energy of 6000 MeV, an
 initial altitude of 15000 m, and a zenith angle of 0° degrees, we should
 obtain the follow curve:
 
+<img src="https://i.imgur.com/xjCbfMD.png"/>
+
 **Figure 1** Energy vs Altitude graph for Muon with initial energy and
 altitude of 6000 eV and 15000 m respectively assuming no particle decay
 and a zenith angle of 0° degrees
@@ -149,6 +148,8 @@ If we assume no particles are decaying, and we set up a random
 distribution of initial altitudes between 10000 m and 20000 m, of
 initial energies from 2500 eV to 8000 eV, and a zenith angle of 0
 degrees, we should obtain something along the following distribution:
+
+<img src="https://i.imgur.com/ZH09h4o.png"/>
 
 **Figure 2** Energy vs Altitude graph for 100 Muon with pseudo-random
 initial energies and altitudes assuming no particle decay and a zenith
@@ -180,6 +181,8 @@ angle of 0° for all muons, a pseudo-random initial altitude between
 10000 m- 20000 m and a pseudo-random initial energy of 2500 eV to 8000
 eV.
 
+<img src="https://i.imgur.com/LP8s7V6.png"/>
+
 **Figure 3** Energy vs Altitude graph for 100 Muon with pseudo-random
 initial energies and altitudes assuming a zenith angle of 0° degrees
 
@@ -187,6 +190,8 @@ We see that many of the particles still make it to sea level as their
 path length is still short enough that there is very little chance of
 decay. We expect to see less particles make it sea level if the pressure
 is higher.
+
+<img src="https://i.imgur.com/0Jiwl0e.png"/>
 
 **Figure 4** Total Energy vs Altitude for 100 muons with a zenith angle
 of 0° degrees
@@ -197,6 +202,8 @@ energy should tend to be less at every altitude. To test this the
 standard pressure at sea level will be increased from 101325 Pa to
 161325 Pa.
 
+<img src="https://i.imgur.com/DPcSXzG.png"/>
+
 **Figure 5** Energy vs Altitude graph for 100 Muon with pseudo-random
 initial energies and altitudes assuming a zenith angle of 0° degrees.
 Pressure at sea level of 161325 Pa
@@ -204,6 +211,8 @@ Pressure at sea level of 161325 Pa
 Compared to the real-life pressure at sea level, the muon energies tend
 to have much steeper curves, which should correlate to a lower total
 energy at most altitudes.
+
+<img src="https://i.imgur.com/btlbi65.png"/>
 
 **Figure 6** Total Energy vs Altitude for 100 muons with a zenith angle
 of 0 degrees. Pressure at sea level of 161325 Pa.
@@ -222,9 +231,14 @@ reach the sea level. As a result, an increase in the zenith angle should
 lead to the peak in the total energies shifting towards higher
 altitudes.
 
+<img src="https://i.imgur.com/NAV2paU.png"/> <img src="https://i.imgur.com/Pq2fuDp.png"/> <img src="https://i.imgur.com/ENMWBG0.png"/>
+
+
 **Figure 7** From Left to Right: Energy vs Altitude for 100 Muons at
 zenith angle of 0°, Energy vs Altitude for 100 Muons at zenith angle of
 50°, Energy vs Altitude for 100 Muons at zenith angle of 80°
+
+<img src="https://i.imgur.com/aQXzyAu.png"/> <img src="https://i.imgur.com/61Ettgw.png"/> <img src="https://i.imgur.com/YjKAiqR.png"/>
 
 **Figure 8** From Left to Right: Total Energy vs Altitude for 100 muons
 at zenith angle of 0°, Total Energy vs Altitude for 100 muons at zenith
